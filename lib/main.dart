@@ -10,10 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Color(0xFF806B7D),
-        body: SafeArea(
-          child: MyHomePage(),
+      home: Expanded(
+        child: Scaffold(
+          backgroundColor: Color(0xFF806B7D),
+          body: SafeArea(
+            child: MyHomePage(),
+          ),
         ),
       ),
     );

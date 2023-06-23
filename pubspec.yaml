@@ -29,9 +29,8 @@ flutter:
 
 
   assets:
-    - assets/images/My project.png
-    - assets/images/studio 2.png
-    - assets/images/s.png
+    - assets/images/
+
 
   fonts:
      - family: Nunito
